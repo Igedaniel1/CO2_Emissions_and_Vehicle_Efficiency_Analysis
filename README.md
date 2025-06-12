@@ -104,6 +104,7 @@ Data summaries are export-ready for interactive dashboards in **Power BI** or **
 | `eco_friendly_buy.ipynb`       | Vehicles that are friendly to eco system |
 | `vehicle_performance.ipynb`    | Vehicle performance |
 | `co2_predictive_model.ipynb`   | The model Prediction for co2 emissions |
+| `CO2_emission.csv`             | Raw Dataset |
 
 ---
 
