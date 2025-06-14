@@ -58,17 +58,17 @@ The dataset (`CO2_Emission.csv`) includes the following features:
 
 ## 🤖 Machine Learning: CO₂ Emission Classification
 
-To automate eco-friendliness labeling, a **Random Forest Classifier** was built.
+To automate eco-friendliness labeling, a **Classifier** was built, using a pie chart to visually display eco friendly and highu emission vehicl classes.
 
 ### 🏷️ Labeling Criteria
 - **Eco-Friendly**: CO₂ emissions < 150 g/km
 - **High Emission**: CO₂ emissions ≥ 150 g/km
 
-### 🛠 Model Pipeline
+### 🛠 Model Pipeline- To build a regression model to predict CO2 Emissions based on different vehicle features.
 1. **Feature Engineering**: Transmission type derived from code prefixes (e.g., A8 → Automatic).
 2. **Preprocessing**: One-hot encoding for categorical features.
 3. **Train-Test Split**: 70/30
-4. **Model**: Random Forest Classifier (`sklearn`)
+4. **Model**: Random Forest Regressor (`sklearn`)
 5. **Evaluation Metrics**:
    - **Accuracy**: `0.96`
    - High precision and recall across both classes
