@@ -58,7 +58,7 @@ The dataset (`CO2_Emission.csv`) includes the following features:
 
 ## 🤖 Machine Learning: CO₂ Emission Classification
 
-To automate eco-friendliness labeling, a **Classifier** was built, using a pie chart to visually display eco friendly and highu emission vehicl classes.
+To automate eco-friendliness labeling, a **Classifier** was built, using a pie chart to visually display eco friendly and high emission vehicle classes.
 
 ### 🏷️ Labeling Criteria
 - **Eco-Friendly**: CO₂ emissions < 150 g/km
